@@ -5155,3 +5155,6 @@ ins .amount {
 .my_service .service-item .service-item_img img{
   width: 100%;
 }
+.service_min_height{
+  min-height: 190px;
+}
