@@ -5163,7 +5163,7 @@ ins .amount {
       margin-bottom: 30px;
 }
 .banner_overlay{
-  background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.6);
   position: absolute;
   z-index: 99999;
   width: 100%;
@@ -5171,7 +5171,7 @@ ins .amount {
   color: #fff;
 }
 .banner_overlay p{
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 1);
 }
 .tp-leftarrow, .tp-rightarrow{
   display: none;
@@ -5247,7 +5247,7 @@ ins .amount {
 }
 
 #rev_slider_1_1_wrapper{
-  height: 500px !important;
+  height: 600px !important;
 }
 .top_banner_bg{
   background: url(../images/Fridge-Repair-2.jpg) no-repeat center center/cover;
@@ -5260,6 +5260,43 @@ ins .amount {
 }
 .pos_relative{
   position: relative;
+}
+
+.banner_top_left, .banner_top_right{
+  position: relative;
+}
+
+.banner_top_left .quality{
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+.banner_top_right .satisfaction{
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+.sm_block{
+  width: 100%;
+}
+.bannr_form p{
+    font-size: 12px;
+    line-height: 15px;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+.seniors_discount{
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+.mb10{
+  margin-bottom: 10px;
+}
+.pl0{
+  padding-left: 0;
+}
+.reloadcaptcha{
+  font-size: 12px;
 }
 
 @media (max-width: 1280px) {
@@ -5293,6 +5330,10 @@ ins .amount {
 }
 
 @media (max-width: 1023px) {
+  .smpl15{
+    padding-left: 23px;
+    margin-top: 10px;
+  }
   .mobile_menu {
       position: absolute;
       right: 0;
@@ -5309,9 +5350,6 @@ ins .amount {
   .banner_overlay{
     position: relative;
     float: left;
-  }
-  .sm_block{
-    width: 100%;
   }
   .banner_top_right{
     margin-top: 30px;
