@@ -5158,3 +5158,47 @@ ins .amount {
 .service_min_height{
   min-height: 190px;
 }
+.quote_form{
+  padding-top: 60px;background:#5296D1;
+}
+.quote_form input[type="submit"]{
+  background: #000;
+  color: #fff;
+  border:1px solid #000;
+}
+.quote_form input, .quote_form textarea{
+  background: transparent;
+  border:1px solid rgba(255,255,255,0.3);
+  color: #000;
+}
+.quote_form input[type="submit"]:hover{
+  background: #5296D1;
+  border:1px solid #000;
+}
+
+.quote_form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000;
+}
+.quote_form input::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+.quote_form input:-ms-input-placeholder { /* IE 10+ */
+  color: #000;
+}
+.quote_form input:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+
+
+.quote_form textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000;
+}
+.quote_form textarea::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+.quote_form textarea:-ms-input-placeholder { /* IE 10+ */
+  color: #000;
+}
+.quote_form textarea:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
