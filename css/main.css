@@ -5155,3 +5155,175 @@ ins .amount {
 .my_service .service-item .service-item_img img{
   width: 100%;
 }
+.service_min_height{
+  min-height: 190px;
+}
+.logo{
+      margin-top: 50px;
+      margin-bottom: 30px;
+}
+.banner_overlay{
+  background: rgba(0,0,0,0.3);
+  position: absolute;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.banner_overlay p{
+  color: rgba(255, 255, 255, 0.6);
+}
+.tp-leftarrow, .tp-rightarrow{
+  display: none;
+}
+.banner_heading{
+  margin-top: 50px;
+  color: #5296D1;
+}
+.wrench-list li i{
+  margin-right: 10px;
+}
+.wrench-list li{
+  opacity: 0.9;
+}
+.banner_form{
+  background: rgba(0,0,0,0.7);
+}
+.height_100p{
+  height: 100%;
+}
+.top_banner_phone h4{
+  font-size: 35px;
+}
+.top_banner_phone p{
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.banner_right_list{
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.banner_right_list li{
+    display: inline-block;
+    font-size: 13px;
+    line-height: 39px;
+    margin-right: 15px;
+}
+.banner_right_list li span{
+  font-size: 34px;
+  float: left;
+  margin-right: 11px;
+  color: #5296D1;
+}
+.banner_ul{
+  width: 100%;
+  text-align: center;
+}
+.bannr_form{
+  display: block;
+  float: left;
+  margin-top: 30px;
+}
+.banner_form h3{
+  color: #5296D1;
+}
+.mb0{
+  margin-bottom: 0 !important;
+}
+
+.banner_form .call-us_phone{
+  margin-bottom: 16px;
+}
+.bannr_form input, .bannr_form textarea{
+  background: transparent;
+  border:1px solid rgba(255,255,255,0.3);
+}
+.bannr_form input[type="submit"]{
+  background: #5296D1;
+}
+.bannr_form input[type="submit"]:hover{
+  background: #5296D1;
+}
+
+#rev_slider_1_1_wrapper{
+  height: 500px !important;
+}
+.top_banner_bg{
+  background: url(../images/Fridge-Repair-2.jpg) no-repeat center center/cover;
+}
+.site-header{
+  display: none;
+}
+.mobile_menu{
+  display: none;
+}
+.pos_relative{
+  position: relative;
+}
+
+@media (max-width: 1280px) {
+  .parallax-mirror{
+    display: none;
+  }
+  .we-are-layout1 .col-lg-6{
+    padding:  0 !important;
+  }
+  .site-header{
+    display: block;
+  }
+}
+@media (max-width: 1200px) {
+  .banner_form h3{
+    font-size: 17px;
+  }
+  .banner_right_list li span{
+    font-size: 30px;
+  }
+  .banner_right_list li{
+    font-size: 11px;
+    margin-right: 10px;
+  }
+  .menu a{
+    font-size: 12px;
+  }
+  .primary-menu_style-01 .menu li{
+    padding: 27px 12px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .mobile_menu {
+      position: absolute;
+      right: 0;
+      top: 50px;
+      display: block;
+      z-index: 999999;
+  }
+  #rev_slider_1_1_wrapper{
+    height: auto !important;
+  }
+  .banner_overlay{
+    padding-bottom: 15px !important;
+  }
+  .banner_overlay{
+    position: relative;
+    float: left;
+  }
+  .sm_block{
+    width: 100%;
+  }
+  .banner_top_right{
+    margin-top: 30px;
+  }
+  .banner_top_right .banner_form{
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner_top_left > .row{
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
